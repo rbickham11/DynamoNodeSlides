@@ -1,0 +1,15 @@
+{
+  "name": "dynamotalk_lambdaexample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "deep-diff": "^0.3.8",
+    "dynamodb-marshaler": "^2.0.0",
+    "moment-timezone": "^0.5.13",
+    "q": "^1.5.0"
+  },
+  "author": "Ryan Bickham",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dynamotalk_expressexample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.82.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "modella": "^0.2.14",
+    "modella-validators": "^0.1.3",
+    "morgan": "~1.8.1",
+    "q": "^1.5.0",
+    "ramda": "^0.23.0",
+    "serve-favicon": "~2.4.2",
+    "shortid": "^2.2.8"
+  },
+  "author": "Ryan Bickham"
+}
