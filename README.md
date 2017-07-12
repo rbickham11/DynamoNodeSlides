@@ -24,6 +24,6 @@ npm install
 
 To use the project as is, you must have a table in your dynamo account named `dynamotalk_people` with `location` as the partition key and `id` as the sort key. 
 
-However, to use a different table set you can modify the created tables [here](./examples/dynamonode/dynamo/tablecollection.js#L50). Simply add or remove function calls similar to that on line 50.
+However, to use a different table set you can modify the created tables [here](./examples/dynamonode/dynamo/tablecollection.js#L48). Simply add or remove function calls similar to that on line 48.
 
 You can also modify the searched prefix [here](./examples/dynamonode/bin/www#L75)
