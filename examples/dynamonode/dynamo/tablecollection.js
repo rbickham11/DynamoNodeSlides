@@ -39,8 +39,6 @@ class DynamoTableCollection {
         let describePromises = R.map(name => dynamo.describeTable({ TableName: name }), tablesToRetrieve);
 
         Q.all(describePromises).then(results => {
-          let getTable = buildTableFromName(results, this.tablePrefix);
-
           /**
            * The generated model associated with the retrieved person table. If no person table was
            * retrieved, this property will be undefined
